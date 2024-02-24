@@ -66,12 +66,13 @@
         margin: auto;
         width: 200px;
         height: 200px;
-        background: #ffb703;
+        background: #3c3d36;
         align-items: center;
         cursor: pointer;
     }
 
     p{
+        color: aliceblue;
         text-align: center;
         padding: 12px 16px;
     }
