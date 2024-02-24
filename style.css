@@ -1,0 +1,137 @@
+/* Task 1: Event Listen Pop-Up */
+    button{
+        margin: 10px 0 20px 0;
+    }
+    .btn{
+        border: 1px solid #9e7212;
+        color: #9e7212;
+        border-radius: 10px;
+        padding: 8px 14px;
+        cursor: pointer;
+        font-size: 12px;
+        text-align: center;
+        background: white;
+        font-size: 16px;
+    }
+    .btn:hover{
+        background: #9e7212;
+        color: white;
+    }
+
+/* Task 2: Dropdown Button */
+    .dropbtn {
+        background-color: #ca2828;
+        color: #e4c37d;
+        padding: 8px 14px;
+        font-size: 16px;
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+    }
+    
+    .dropbtn:hover {
+        background-color: #9b2a1b;
+        color: #d1a64a;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+    }
+    
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+    
+    .show {
+        display:block;
+    }
+
+/* Task 3: Color Change */
+    #box{
+        margin: auto;
+        width: 200px;
+        height: 200px;
+        background: #ffb703;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    p{
+        text-align: center;
+        padding: 12px 16px;
+    }
+
+/* Task 4: Form */
+    h1{
+        text-align: center;
+    }
+
+    .form{
+        margin: 100px auto;
+        display: block;
+        background-color: #eae9ed;
+        border-radius: 10px;
+        border: 1px solid #eae9ed;
+        min-height: 400px;
+            /*give you the min height*/
+        width: 50%;
+        position: relative;
+    }
+
+    /*focus = indcates to the user the current text box they are in*/
+    input[type="text"]:focus, textarea:focus{
+        border: 1px solid #ccc;
+    }
+
+    input[type="text"], textarea{
+        width: 80%;
+            /*Takes up 80% of the colored area*/
+        margin: 25px auto;
+        text-align: left;
+        display: block;
+        padding: 12px 20px;
+        border: 1px solid transparent;
+        border-radius: 8px;
+    }
+
+    /*increases box size of the "Type your message" box if the user has fore to write*/
+    textarea{
+        resize: vertical;
+        min-height: 100px;
+        margin-bottom: 0px;
+    }
+
+    .submit-form{
+        border: #ca2828;
+        background-color: #ca2828;
+        padding: 12px 20px;
+        border-radius: 8px;
+        color: white;
+        width: 40%;
+        margin: 20px auto;
+        cursor: pointer;
+    }
+
+    .submit-form:hover{
+        opacity: 0.8;
+    }
+
+    /*Once button is clicked it will change to this*/
+    .submit-form:active{
+        background-color: #9b2a1b;
+    }

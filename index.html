@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Event Handlers</title>
+    </head>
+    <body>
+        <!--Task 1: Event Listener (Pop-up)-->
+            <button class="btn" onclick="alert('Congradulations! You Won!')">Click Me For A Reward</button>
+
+        <!--Task 2: Dropdown Menu-->
+            <div class="dropdown">
+                <button onclick="showHide()" class="dropbtn">Dropdown</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#">These</a>
+                    <a href="#">Are All</a>
+                    <a href="#">Place Holders :)</a>
+                </div>
+            </div>
+
+        <!--Task 3: Color Change-->
+            <div onmouseenter="comeOnIn()">
+                <div id="box" class="boxIN">
+                    <p>Mouse Enter For Party Mode</p>
+                    <script src="index.js">
+                        const boxIN = document.getElementById("box");  
+                    </script>
+                </div>
+            </div>
+
+        <!--Task 4: Form-->
+            <div class="container">
+                <div class="form">
+                    <h1>Show Them Who You Are</h1>
+                        <form id="myForm">
+                            <input type="text" id="name" placeholder="Full Name">
+                            <input type="text" id="email" placeholder="Email">
+                            <!--textarea = area for user to insert their own text-->
+                                <textarea id="message" placeholder="Type your message"></textarea>
+                                
+                            <div style="display: block; text-align: center;">
+                                <button class="submit-form">
+                                    Submit
+                                </button>
+                            </div>
+                        </form>
+
+                        <div id="errorMessage"></div>
+                </div>
+            </div>
+
+    </body>
+</html>
