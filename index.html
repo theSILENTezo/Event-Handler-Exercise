@@ -35,10 +35,10 @@
                 <div class="form">
                     <h1>Show Them Who You Are</h1>
                         <form id="myForm">
-                            <input type="text" id="name" placeholder="Full Name">
-                            <input type="text" id="email" placeholder="Email">
+                            <input type="text" id="name" placeholder="Full Name" required>
+                            <input type="text" id="email" placeholder="Email" required>
                             <!--textarea = area for user to insert their own text-->
-                                <textarea id="message" placeholder="Type your message to the world"></textarea>
+                                <textarea id="message" placeholder="Type your message to the world" required></textarea>
                                 
                             <div style="display: block; text-align: center;">
                                 <button class="submit-form">
@@ -47,7 +47,7 @@
                             </div>
                         </form>
 
-                        <div id="errorMessage"></div>
+                        <div class="error-message" id="errorMessage"></div>
                 </div>
             </div>
 
